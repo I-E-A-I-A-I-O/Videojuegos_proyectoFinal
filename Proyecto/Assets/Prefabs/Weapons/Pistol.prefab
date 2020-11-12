@@ -65,6 +65,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -177.538, y: 51.38699, z: -11.13}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -8.213709, y: 4.0514526, z: -2.2512157}
+  m_LocalScale: {x: 100, y: 291.50836, z: 76.67618}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &6296355815535509931
 MeshFilter:
   m_ObjectHideFlags: 0

@@ -5,6 +5,7 @@ public class Movement : MonoBehaviour
     private Animator _playerAnimator;
     private bool _sideMoveLock;
     public int weapon = 1;
+
     private static readonly int Movement1 = Animator.StringToHash("Move"),
         Forward = Animator.StringToHash("Forward"),
         Weapon = Animator.StringToHash("Weapon"),
@@ -22,6 +23,8 @@ public class Movement : MonoBehaviour
         {
             _playerAnimator.SetBool(Movement1, true);
             _playerAnimator.SetBool(Forward, true);
+            _playerAnimator.SetInteger(Weapon, 0);
+
         }
         else
         {

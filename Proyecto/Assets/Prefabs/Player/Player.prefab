@@ -171,6 +171,9 @@ GameObject:
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -266,6 +269,8 @@ MonoBehaviour:
   weaponParent: {fileID: 5837119425166219895}
   pistol: {fileID: 7747648731285738676, guid: 49adf178d440325e5a4303182ae18d5f, type: 3}
   rifle: {fileID: 5502568000909101088, guid: e050a531d709a79fa8c9149b1a36e673, type: 3}
+  m_Size: {x: 1.349194, y: 5.2921534, z: 2.1749794}
+  m_Center: {x: 0.044163465, y: 2.7910924, z: -0.026954412}
 --- !u!1 &2369928295455370015
 GameObject:
   m_ObjectHideFlags: 0
