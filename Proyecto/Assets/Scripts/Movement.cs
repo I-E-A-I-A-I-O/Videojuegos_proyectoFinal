@@ -23,7 +23,6 @@ public class Movement : MonoBehaviour
         {
             _playerAnimator.SetBool(Movement1, true);
             _playerAnimator.SetBool(Forward, true);
-            _playerAnimator.SetInteger(Weapon, 0);
 
         }
         else
@@ -55,7 +54,7 @@ public class Movement : MonoBehaviour
     {
         if (_playerAnimator == null)
         {
-            if (!IsInvoking(nameof(ChangeWeapon))) Invoke(nameof(ChangeWeapon), .05f);
+            if (!IsInvoking(nameof(ChangeWeapon))) Invoke(nameof(ChangeWeapon), .2f);
         }
         else
         {
