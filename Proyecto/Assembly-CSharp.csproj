@@ -56,6 +56,9 @@
      <Compile Include="Assets\Scripts\WeaponScript.cs" />
      <Compile Include="Assets\Scripts\BulletScript.cs" />
      <Compile Include="Assets\Scripts\EquippedWeapon.cs" />
+     <Compile Include="Assets\Scripts\RagdollScript.cs" />
+     <Compile Include="Assets\Scripts\NpcBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Main.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/home/justdance/Proyecto_DesarrolloVideojuegos/Videojuegos_proyectoFinal/Proyecto/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

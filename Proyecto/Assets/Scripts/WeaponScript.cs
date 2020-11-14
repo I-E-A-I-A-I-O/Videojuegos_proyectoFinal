@@ -40,5 +40,6 @@ public class WeaponScript : MonoBehaviour
     private void Shoot()
     {
         Instantiate(ammo, shootPoint.position, Quaternion.Euler(0, 0, 0));
+        GameObject.FindWithTag("Main").GetComponent<Main>().ShootSignal();
     }
 }

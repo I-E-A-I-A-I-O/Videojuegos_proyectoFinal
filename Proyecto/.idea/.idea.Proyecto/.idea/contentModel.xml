@@ -10,7 +10,10 @@
           <e p="BulletScript.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="EquippedWeapon.cs" t="Include" />
+          <e p="Main.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
+          <e p="NpcBehaviour.cs" t="Include" />
+          <e p="RagdollScript.cs" t="Include" />
           <e p="SceneLoop.cs" t="Include" />
           <e p="WeaponScript.cs" t="Include" />
         </e>

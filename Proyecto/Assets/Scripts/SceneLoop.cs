@@ -7,7 +7,7 @@ public class SceneLoop : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            other.transform.position = startPos.transform.position;
+            other.transform.position = new Vector3(other.transform.position.x, other.transform.position.y, startPos.transform.position.z);
         }
     }
 }
