@@ -18,7 +18,19 @@ public class BulletScript : MonoBehaviour
     {
         if (other.transform.root.CompareTag("NPC"))
         {
-            other.transform.root.GetComponent<RagdollScript>().Die();
+            var root = other.transform.root;
+            root.GetComponent<RagdollScript>().Die();
+            root.GetComponentInChildren<BloodScript>().Bleed(gameObject.transform.position);
+            Destroy(gameObject);
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.transform.root.CompareTag("NPC"))
+        {
+            var root = other.transform.root;
+            root.GetComponent<NpcBehaviour>().RunAway(2);
         }
     }
 }

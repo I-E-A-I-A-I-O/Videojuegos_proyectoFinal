@@ -6,6 +6,9 @@ TagManager:
   tags:
   - NPC
   - Main
+  - Object
+  - World
+  - Blood
   layers:
   - Default
   - TransparentFX

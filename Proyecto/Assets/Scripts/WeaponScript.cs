@@ -4,11 +4,13 @@ public class WeaponScript : MonoBehaviour
 {
     public bool isEquipped;
     private AudioSource[] _weaponSounds;
+    private ParticleSystem _shootingEffect;
     [SerializeField] private Transform shootPoint;
     [SerializeField] private GameObject ammo;
     private void Start()
     {
         _weaponSounds = gameObject.GetComponents<AudioSource>();
+        _shootingEffect = gameObject.GetComponentInChildren<ParticleSystem>();
     }
 
     private void Update()
@@ -40,6 +42,7 @@ public class WeaponScript : MonoBehaviour
     private void Shoot()
     {
         Instantiate(ammo, shootPoint.position, Quaternion.Euler(0, 0, 0));
+        _shootingEffect.Play();
         GameObject.FindWithTag("Main").GetComponent<Main>().ShootSignal();
     }
 }

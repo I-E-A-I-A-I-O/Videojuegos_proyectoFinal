@@ -10,12 +10,13 @@ public class RagdollScript : MonoBehaviour
 
     public void Die()
     {
+        GetComponent<NpcBehaviour>().SetDead();
         GetComponent<Animator>().enabled = false;
         SetRigidbodyState(false);
         SetColliderState(true);
-        if (GameObject.FindWithTag("Main").GetComponent<Main>().npcInScene.Contains(gameObject))
+        if (GameObject.FindWithTag("Main").GetComponent<Main>().behaviourList.Contains(gameObject))
         {
-            GameObject.FindWithTag("Main").GetComponent<Main>().npcInScene.Remove(gameObject);
+            GameObject.FindWithTag("Main").GetComponent<Main>().behaviourList.Remove(gameObject);
         }
     }
     private void SetRigidbodyState(bool state)
