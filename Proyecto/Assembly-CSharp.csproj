@@ -50,18 +50,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\CameraFollow.cs" />
-     <Compile Include="Assets\Scripts\Movement.cs" />
-     <Compile Include="Assets\Scripts\SceneLoop.cs" />
-     <Compile Include="Assets\Scripts\HallDestruction.cs" />
-     <Compile Include="Assets\Scripts\NpcBehaviour.cs" />
-     <Compile Include="Assets\Scripts\NPC_Spawn.cs" />
-     <Compile Include="Assets\Scripts\WeaponScript.cs" />
-     <Compile Include="Assets\Scripts\BulletScript.cs" />
-     <Compile Include="Assets\Scripts\BloodScript.cs" />
-     <Compile Include="Assets\Scripts\RagdollScript.cs" />
-     <Compile Include="Assets\Scripts\EquippedWeapon.cs" />
-     <Compile Include="Assets\Scripts\Main.cs" />
+     <Compile Include="Assets\Scripts\Scene_Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\Player_Scripts\Movement.cs" />
+     <Compile Include="Assets\Scripts\Scene_Scripts\SceneLoop.cs" />
+     <Compile Include="Assets\Scripts\Scene_Scripts\HallDestruction.cs" />
+     <Compile Include="Assets\Scripts\NPC_Scripts\NpcBehaviour.cs" />
+     <Compile Include="Assets\Scripts\NPC_Scripts\NPC_Spawn.cs" />
+     <Compile Include="Assets\Scripts\Weapons_Scripts\WeaponScript.cs" />
+     <Compile Include="Assets\Scripts\Weapons_Scripts\BulletScript.cs" />
+     <Compile Include="Assets\Scripts\Effects_Scripts\BloodScript.cs" />
+     <Compile Include="Assets\Scripts\NPC_Scripts\RagdollScript.cs" />
+     <Compile Include="Assets\Scripts\Player_Scripts\EquippedWeapon.cs" />
+     <Compile Include="Assets\Scripts\Scene_Scripts\Main.cs" />
+     <Compile Include="Assets\Scripts\NPC_Scripts\PoliceScript.cs" />
+     <Compile Include="Assets\Scripts\Player_Scripts\PoliceDistanceTrigger.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/home/justdance/Proyecto_DesarrolloVideojuegos/Videojuegos_proyectoFinal/Proyecto/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

@@ -7,18 +7,30 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
-          <e p="BloodScript.cs" t="Include" />
-          <e p="BulletScript.cs" t="Include" />
-          <e p="CameraFollow.cs" t="Include" />
-          <e p="EquippedWeapon.cs" t="Include" />
-          <e p="HallDestruction.cs" t="Include" />
-          <e p="Main.cs" t="Include" />
-          <e p="Movement.cs" t="Include" />
-          <e p="NPC_Spawn.cs" t="Include" />
-          <e p="NpcBehaviour.cs" t="Include" />
-          <e p="RagdollScript.cs" t="Include" />
-          <e p="SceneLoop.cs" t="Include" />
-          <e p="WeaponScript.cs" t="Include" />
+          <e p="Effects_Scripts" t="Include">
+            <e p="BloodScript.cs" t="Include" />
+          </e>
+          <e p="NPC_Scripts" t="Include">
+            <e p="NPC_Spawn.cs" t="Include" />
+            <e p="NpcBehaviour.cs" t="Include" />
+            <e p="PoliceScript.cs" t="Include" />
+            <e p="RagdollScript.cs" t="Include" />
+          </e>
+          <e p="Player_Scripts" t="Include">
+            <e p="EquippedWeapon.cs" t="Include" />
+            <e p="Movement.cs" t="Include" />
+            <e p="PoliceDistanceTrigger.cs" t="Include" />
+          </e>
+          <e p="Scene_Scripts" t="Include">
+            <e p="CameraFollow.cs" t="Include" />
+            <e p="HallDestruction.cs" t="Include" />
+            <e p="Main.cs" t="Include" />
+            <e p="SceneLoop.cs" t="Include" />
+          </e>
+          <e p="Weapons_Scripts" t="Include">
+            <e p="BulletScript.cs" t="Include" />
+            <e p="WeaponScript.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Proyecto.sln" t="IncludeFlat" />

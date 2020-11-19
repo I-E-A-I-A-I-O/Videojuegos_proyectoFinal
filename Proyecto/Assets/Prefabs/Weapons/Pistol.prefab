@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6475710368636986912}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: -0.01, z: 0}
+  m_LocalPosition: {x: -0, y: -0.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6975791961739005454}
@@ -131,6 +131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isEquipped: 0
   clipSize: 9
+  remainingBullets: 0
   shootPoint: {fileID: 5845205571976207423}
   ammo: {fileID: 7784648804747532981, guid: 7e39d7e4b7273e85394e4d7ef828fa59, type: 3}
 --- !u!82 &-2049087072548581323
