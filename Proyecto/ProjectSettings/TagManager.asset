@@ -9,6 +9,7 @@ TagManager:
   - Object
   - World
   - Blood
+  - HallLights
   layers:
   - Default
   - TransparentFX

@@ -108,7 +108,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Run Away
-  m_Speed: 1.6
+  m_Speed: 0.7
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -120,7 +120,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 3086763154555478571, guid: 5953d3329cc1f0cc4aa0e38e7f497337, type: 3}
+  m_Motion: {fileID: 7455413380613409831, guid: 4e811d95a2bb38157b1bdb2dc0587148, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

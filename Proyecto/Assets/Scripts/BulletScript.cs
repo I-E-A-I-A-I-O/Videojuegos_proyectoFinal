@@ -1,12 +1,11 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BulletScript : MonoBehaviour
 {
     private void Start()
     {
         gameObject.transform.Rotate(gameObject.name.Contains("Pistol") ? -90 : -180, 0, 0, Space.World);
-        Destroy(gameObject, 10);
+        Destroy(gameObject, 1.5f);
     }
 
     private void Update()

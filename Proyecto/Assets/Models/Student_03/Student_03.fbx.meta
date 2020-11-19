@@ -88,8 +88,8 @@ ModelImporter:
       name: Armature|Armature|Armature|Run_away|Armature|Run_away
       takeName: Armature|Armature|Armature|Run_away|Armature|Run_away
       internalID: 0
-      firstFrame: 0
-      lastFrame: 50
+      firstFrame: 1
+      lastFrame: 49
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -97,7 +97,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 0
+      loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0

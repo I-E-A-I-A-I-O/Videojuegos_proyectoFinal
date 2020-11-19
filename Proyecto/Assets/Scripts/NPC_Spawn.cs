@@ -13,7 +13,7 @@ public class NPC_Spawn : MonoBehaviour
 
     public void RandomSpawn()
     {
-        var npcInScene = Random.Range(10, 31);
+        var npcInScene = Random.Range(10, 61);
         for (var i = 0; i < npcInScene; i++)
         {
             var npc = Instantiate(npcs[Random.Range(0, npcs.Count)], 

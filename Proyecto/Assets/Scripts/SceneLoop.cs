@@ -19,8 +19,10 @@ public class SceneLoop : MonoBehaviour
             _newHall = Instantiate(hall, new Vector3(oldHallPos.x, oldHallPos.y, oldHallPos.z - 254),
                 Quaternion.Euler(0, 0, 0));
             var hallLimitsPos = hallLimits.transform.position;
-            hallLimits.transform.position = new Vector3(hallLimitsPos.x, hallLimitsPos.y, 
+            hallLimits.transform.position = new Vector3(hallLimitsPos.x, hallLimitsPos.y,
                 hallLimitsPos.z - 252);
+            GameObject.FindWithTag("Main").GetComponent<Main>().lights =
+                GameObject.FindGameObjectsWithTag("HallLights");
             GameObject.FindWithTag("Main").GetComponent<NPC_Spawn>().RandomSpawn();
         }
     }

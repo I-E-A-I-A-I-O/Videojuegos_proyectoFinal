@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EquippedWeapon : MonoBehaviour
 {
@@ -11,17 +10,7 @@ public class EquippedWeapon : MonoBehaviour
         EquipPistol();
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            if (IsInvoking(nameof(EquipPistol))) return;
-            EquipRifle();
-            Invoke(nameof(EquipPistol), 10);
-        }
-    }
-
-    private void EquipPistol()
+    public void EquipPistol()
     {
         if (!(_playerWeapon == null)) Destroy(_playerWeapon);
         _playerWeapon = Instantiate(pistol, weaponParent);
@@ -30,7 +19,7 @@ public class EquippedWeapon : MonoBehaviour
         gameObject.GetComponent<Movement>().weapon = 0;
         gameObject.GetComponent<Movement>().ChangeWeapon();
     }
-    private void EquipRifle()
+    public void EquipRifle()
     {
         if (!(_playerWeapon == null)) Destroy(_playerWeapon);
         _playerWeapon = Instantiate(rifle, weaponParent);
